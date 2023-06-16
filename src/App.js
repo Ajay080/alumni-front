@@ -19,7 +19,7 @@ import Fulljob from "./pages/Fulljob"
 // import Signup from "./Authen/SignUp";
 // import Login from "./Authen/Login";
 // import SignUp from "./SignUp"
-import Test from "./Test"
+// import Test from "./Test"
 import Onboarding from "./pages/Onboarding"
 
 import { Route, Routes, Navigate } from "react-router-dom"
@@ -86,7 +86,7 @@ function App() {
     <Route path="/video" element={<Video />} />
     <Route path="/faq" element={<FAQ />} />
     <Route path="/career" element={<Career />} />
-    <Route path="/test" element={<Test/>}/>
+    {/* <Route path="/test" element={<Test/>}/> */}
     <Route path="/onBoarding" element={<Onboarding/>}/>
     <Route path="/full-job" element={<Fulljob/>}/>
     <Route path="*" element={<p>Not found!</p>} />

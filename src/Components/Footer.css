@@ -19,15 +19,10 @@ footer .fgrid-container {
     grid-template-columns:  repeat(4,1fr);
     gap: auto;
     margin:50px 0px;
-    justify-items: center;
-    /* background-color: #2196F3; */
+
   }
   
-/* footer .fgrid-container > div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* padding: 10px 0; */
-    /* margin:10px auto; */
-  /* } */ */
+
   footer br{
     background-color: white;
   }
