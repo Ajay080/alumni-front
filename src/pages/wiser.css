@@ -1,0 +1,21 @@
+.wiser-container{
+    margin-bottom:10%;
+}
+.wiser-text{
+    text-align: justify;
+    padding:0 10px;
+}
+.wiser-head{
+    display: flex;
+    justify-content:center;
+    margin:5% 0;
+}
+.wiser-img{
+    display:flex;
+    justify-content: center;
+    background-color: bisque;
+    margin-bottom:2rem;
+}
+.wiser-img img{
+    max-width:200px;
+}

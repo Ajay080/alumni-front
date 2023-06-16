@@ -1,0 +1,24 @@
+.qoute{
+    display: flex;
+    justify-content: center;
+}
+.alumni-head{
+    background-color: bisque;
+    padding:20px 0;
+}
+.notable .container{
+    text-align: justify;
+    /* background-color: bisque; */
+    padding:5% 5%;
+}
+.award-name{
+    margin-top:5%;
+    padding-bottom: 5%;
+}
+.award-list{
+    margin-bottom:5% ;
+}
+.notable img{
+    width:100%;
+
+}

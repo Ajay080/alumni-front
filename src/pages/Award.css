@@ -1,0 +1,72 @@
+.award-container{
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top:5%;
+    margin-bottom:10%;
+    border:1px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 10px 5px 5px rgb(177, 168, 168);
+    /* background-color: dodgerblue; */
+}
+.award-head{
+    text-align: center;
+    padding-top: 5%;
+}
+.award-collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .ul-award{
+    padding: 5px 10px;
+    border:1px solid black;
+    border-radius: 0.5rem;
+    background-color: bisque;
+    margin:5px 15px;
+  }
+  .ul-award:hover{
+    cursor: pointer;
+  }
+  .active, .award-collapsible:hover {
+    background-color: #555;
+  }
+  
+  .award-content {
+    /* padding: 0 18px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  .award-grid-container{
+    display:grid;
+    grid-template-columns: 150px 150px;
+    gap:2rem;
+    margin:2rem 0;
+  }
+  
+  .ul-award summary{
+    font-size: 18px;
+    padding: 20px ;
+    font-weight:bold;
+  }
+
+.award-cover img{
+    position: relative;
+    max-width:70%;
+    max-height: 60%;
+    border-radius: 0.5rem;
+    box-shadow: 20px 10px 10px rgb(71, 71, 71);
+}
+.award-cover{
+    text-align: center;
+    padding-top:10%
+}
+

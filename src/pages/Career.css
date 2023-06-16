@@ -1,0 +1,69 @@
+.connection-container{
+    padding:2% 2%;
+    text-align: justify;
+    /* background-color: bisque; */
+}
+.popular-tools{
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+.tool-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* grid-template-columns: repeat(3,1fr);
+    gap:2px; */
+}
+.tool-card{
+    width:200px;
+    height:200px;
+    margin:0 5px;
+    background-color: rgb(103, 103, 105);
+    border-radius: 0.5rem;
+    padding: 2px 2px;
+}
+.tool_icon{
+    width:100%;
+    height:100%;
+    color:white;
+}
+.popular-tools h4{
+    justify-content: center;
+    text-align: center;
+    margin-bottom:5%;
+}
+.tool-head{
+    margin:10% 0;
+}
+.TipsHead{
+    margin:5% 0;
+    height: 100px;
+    text-align: center;
+}
+.resume-head, .cover-head{
+    text-align: center;
+    padding: 10px 0;
+    /* border: 1px solid black; */
+    background-color:black;
+    color:white;
+}
+.resume-do, .resume-dont{
+    margin:5% 0;
+}
+.resumeDo, .resumeDont{
+    margin:2rem 0;
+}
+.resumetip, .covertip{
+    padding:5% 5%;
+    background-color:bisque;
+    margin:10% 0;
+}
+
+.head{
+    padding-top:3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:900) {
+    
+}

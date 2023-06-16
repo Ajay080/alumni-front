@@ -1,0 +1,40 @@
+.alumni{
+    height:100vh;
+    text-align: justify;
+}
+.alumni-head{
+    margin: 6% 0;
+    text-align: center;
+}
+.alumni-content{
+    max-width: 1200px;
+    text-align: justify;
+}
+.alumni img{
+    width:100%;
+    position: relative;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 20% auto;
+    gap:10%;
+    align-items: center;
+    padding: 3% 1%;
+}
+
+.alumni-container{
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    margin-bottom: 7% ;
+   
+    background-color: bisque;
+}
+/* .square{
+    padding:0 20px;
+} */
+.alum-box{
+    margin:5% 1%;
+    /* padding-bottom:3%; */
+    /* border:1px solid black; */
+}
+ 
